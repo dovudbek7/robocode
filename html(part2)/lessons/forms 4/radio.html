@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+  </head>
+  <body>
+    <form action="">
+      <input type="radio" name="stacks" id="frontend" />
+      <label for="frontend" class="label-inline">Frontend</label>
+      <br />
+      <input type="radio" name="stacks" id="backend" />
+      <label for="backend" class="label-inline">Backend</label>
+    </form>
+
+    <form action="">
+        <input type="range"  min="0" max="100" value="60"/>
+    </form>
+
+    <form action="">
+        <input type="file" multiple accept="image/*"/>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Select your favorite stack</legend>
+            <input type="radio" name="stack" id="frontend-2"/>
+            <label for="frontend-2" class="label-inline">Frontend</label>
+            <br/>
+            <input type="radio" name="stack" id="backend-2"/>
+            <label for="backend-2" class="label-inline">Backend</label> 
+            <legend>Front end</legend>
+            <input type="checkbox" name="html" id="html"/>
+            <label for="html" class="label-inline">HTML</label>
+            <br/>
+            <input type="checkbox" name="css" id="css"/>
+            <label for="css" class="label-inline">CSS</label>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <input type="hidden" name="user-id" value="12345"/>
+    </form>
+
+    <form action="">
+        <input type="text" required minlength="2" maxlength="10">
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="https://formspree.io/f/xgovgkab" method="POST">
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

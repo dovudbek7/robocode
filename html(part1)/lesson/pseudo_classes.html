@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* article :first-child {
+            color: blue;
+            font-size: 30px;
+            font-style: italic;
+        } */
+        article :first-of-type {
+            font-size: 30px;
+            font-style: italic;
+        }
+        article p:last-of-type {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        ul li:nth-child(odd) {
+            background-color: lightgray;
+            color: red;
+            list-style-type: square;
+        }
+        a:focus {
+            color: orange;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h2>Heading</h2>
+        <p class="first">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p>Voluptatem voluptatum quo labore eos sit sunt.</p>
+        <p>Accusamus facilis eligendi voluptatibus aperiam ea magnam?</p>
+
+        <a href="#">Link</a>
+        <!-- ul>li*5{item $} -->
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ul>
+    </article>
+</body>
+</html>

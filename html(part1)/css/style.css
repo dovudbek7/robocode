@@ -1,0 +1,18 @@
+a[href$="https://"]
+{
+  color: rgb(255, 8, 8);
+  text-decoration: underline;
+}
+
+.product > p {
+  color: blue;
+}
+
+a:visited,
+a:link {
+  color: rgb(255, 29, 255);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 15px;
+}

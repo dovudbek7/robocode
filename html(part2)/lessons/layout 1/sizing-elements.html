@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      .box::before {
+        content: "Hello";
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        /* margin: 50px; */
+        /* padding: 20px;
+            border: 10px solid  orange; */
+        box-sizing: border-box;
+      }
+      .box1 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+
+    <br />
+
+    <span class="box1"></span>
+    <span class="box1"></span>
+  </body>
+</html>

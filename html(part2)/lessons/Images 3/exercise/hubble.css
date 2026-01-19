@@ -1,0 +1,50 @@
+body{
+    font-size: 62.5%;
+}
+.container{
+    background: url(./img/galaxy_pwwa8q_c_scale\,w_320.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: auto;
+    
+}
+h1{
+    text-transform: uppercase;
+    font-family: Poppins,'Courier New', Courier, monospace;
+    font-size: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background: url(./img/galaxy_pwwa8q_c_scale\,w_831.avif) no-repeat;
+    background-size: cover;
+  }
+  .hero .tagline {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background: url(./img/galaxy_pwwa8q_c_scale\,w_1259.avif) no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background: url(./img/galaxy_pwwa8q_c_scale\,w_1400.avif) no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 9rem;
+  }
+}
